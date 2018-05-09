@@ -716,7 +716,7 @@ h2 {
 	margin-bottom: 7rem;
 }
 .is .row:nth-of-type(even) {
-	margin-bottom: 25rem;
+	margin-bottom: 5rem;
 }
 .is .row:nth-of-type(odd) .is_text:before {
 	left: 30px;
