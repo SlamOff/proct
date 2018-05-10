@@ -72,12 +72,23 @@
 	.open_form {
 		overflow: hidden;
 	}
+	.doctor .doctor_slider_item p,
+	.doctor .doctor_slider_item h4 {
+		height: 5rem;
+	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
 	footer .row div  {
 		text-align: center;
+	}
+	.doctor .doctor_slider_item p,
+	.doctor .doctor_slider_item h4 {
+		height: auto;
+	}
+	.doctor img {
+		margin: 0 auto;
 	}
 	.made_by p,
 	.copyright p {
