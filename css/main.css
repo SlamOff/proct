@@ -907,6 +907,9 @@ h2 {
 	right: 15%;
 	bottom: 10%;
 }
+.photo .pict_wrapper:nth-of-type(5) img {
+	width: 130%;
+}
 .photos {
 	height: 700px;
 	position: relative;
