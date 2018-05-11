@@ -902,10 +902,13 @@ h2 {
 	left: -36%;
 }
 .photo .pict_wrapper:nth-of-type(5){
-	width: 340px;
+	width: 420px;
 	height: 280px;
-	right: 15%;
-	bottom: 10%;
+	right: 8%;
+	bottom: 8%;
+}
+.photo .pict_wrapper:nth-of-type(5) img {
+	width: 100%;
 }
 .photos {
 	height: 700px;
