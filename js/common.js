@@ -192,14 +192,15 @@ document.getElementById("seconds"));
 
 	
 	//validation
-	var locationURL = window.location.pathname;
-	if ( locationURL == "/ua" ) {
+	var locale = document.documentElement.getAttribute('lang');
+
+	if ( locale == "ua" ) {
 		var validationName = "Обов'язково для заповнення";
 		var validationNameMax = "Від 2 до 16 літер";
 		var validationPhone = "Введіть вірний номер";
 		var validationEmail = "Введіть вірний E-mail";
 	}
-	else if ( locationURL == "/en" ) {
+	else if ( locale == "en" ) {
 		var validationName = "Fill in this field";
 		var validationNameMax = "From 2 till 16 letters";
 		var validationPhone = "Fill in the correct phone";
@@ -211,8 +212,6 @@ document.getElementById("seconds"));
 		var validationPhone = "Введите корректный номер";
 		var validationEmail = "Введите корректный E-mail";
 	}
-
-
 	$('#topForm').validate({
 		rules: {
 			name: {
