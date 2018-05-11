@@ -600,10 +600,18 @@ h2 {
 	background-repeat: no-repeat;
 	left: 0;
 	top: 0;
-	background-image: url("../img/open_form_bg2.jpg");
 	height: 1040px;
 	width: 100%;
 	background-position: center top;
+}
+.page_ua .open_form:before {
+	background-image: url("../img/open_form_bg2_ua.jpg");
+}
+.page_ru .open_form:before {
+	background-image: url("../img/open_form_bg2.jpg");
+}
+.page_en .open_form:before {
+	background-image: url("../img/open_form_bg2_en.jpg");
 }
 .open_form h3 {
 	font-size: 8rem;
