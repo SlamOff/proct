@@ -227,8 +227,11 @@
 	section {
 		text-align: center;
 	}
-	.about {
-		display: none;
+	.about img {
+		margin: 0 0 2rem 0!important;
+	}
+	.about h4 {
+		margin-top: 4rem;
 	}
 	.menu {
 		display: none;
@@ -338,6 +341,7 @@
 		padding-top: 0;
 		top: 15px;
 		width: auto;
+		text-align: right;
 	}
 	.work_time {
 		 padding-top: 0; 
@@ -375,8 +379,8 @@
 
 @media only screen and (max-width : 380px) {
 	h1 {
-		font-size: 2.4rem;
-		line-height: 3.4rem;
+		font-size: 2.4rem!important;
+		line-height: 3.4rem!important;
 	}
 }
 /* Custom, iPhone Retina */
