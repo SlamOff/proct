@@ -200,7 +200,7 @@
 		text-align: center;
 	}
 	html {
-		font-size: 7.5px;
+		/*font-size: 7.5px;*/
 	}
 	section {
 		padding: 40px 0;
@@ -212,6 +212,7 @@
 		background-image: url(../img/header_bg_m.jpg);
 		text-align: center;
 		padding-bottom: 40px;
+		background-position: 75% top;
 	}
 	.trigger li {
 		padding: 0;
