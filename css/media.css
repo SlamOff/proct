@@ -293,6 +293,12 @@
 	h1 {
 		font-size: 4rem;
 	}
+	.doctor .doctor_slider_item h4 {
+		height: 50px;
+	}
+	.doctor .doctor_slider_item p {
+		height: 40px;
+	}
 }
 
 /* Extra Small Devices, Phones */
